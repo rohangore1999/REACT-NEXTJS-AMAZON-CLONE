@@ -36,8 +36,8 @@ export default async (req, res) => {
         },
         line_items: transformedItems,
         mode: 'payment',
-        success_url: "https://react-nextjs-amazon-clone-hco1gqyzw-rohangore1999.vercel.app/success",
-        cancel_url: "https://react-nextjs-amazon-clone-hco1gqyzw-rohangore1999.vercel.app/checkout",
+        success_url: `${req.headers.origin}/success`,
+        cancel_url: `${req.headers.origin}/checkout`,
         metadata: {
             email,
             images: JSON.stringify(items.map(item => item.image)) //making the array of one massive string
