@@ -10,7 +10,9 @@ import { loadStripe } from '@stripe/stripe-js';
 import axios from 'axios';
 import Head from 'next/head';
 
-const stripePromise = loadStripe(process.env.stripe_public_key)
+const publicKey = process.env.stripe_public_key.toString();
+const stripePromise = loadStripe(publicKey);
+// const stripePromise = loadStripe(process.env.stripe_public_key)
 
 function Checkout() {
     // pull the data from the redux store
