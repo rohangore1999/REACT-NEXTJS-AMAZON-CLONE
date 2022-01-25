@@ -1,3 +1,11 @@
+REACT-NEXTJS-AMAZON-CLONE using NEXTJS, NEXT-AUTH, REDUX, STRIPE PAYMENT GATEWAY, TAILWINDCSS, FIREBASE
+
+
+Deployed on VERCEL ~ https://react-nextjs-amazon-clone-hco1gqyzw-rohangore1999.vercel.app/
+
+
+-------------------------------------------------------------------------
+
 # Installation Steps
 
 
