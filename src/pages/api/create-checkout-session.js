@@ -36,8 +36,8 @@ export default async (req, res) => {
         },
         line_items: transformedItems,
         mode: 'payment',
-        success_url: `${process.env.host}/success`,
-        cancel_url: `${process.env.host}/checkout`,
+        success_url: `${req.headers.origin}/success`,
+        cancel_url: `${req.headers.origin}/checkout`,
         metadata: {
             email,
             images: JSON.stringify(items.map(item => item.image)) //making the array of one massive string
