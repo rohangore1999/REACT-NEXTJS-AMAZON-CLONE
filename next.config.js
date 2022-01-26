@@ -5,6 +5,7 @@ module.exports = {
 
     // ONLY FOR PUBLIC KEY
     env: {
-        stripe_public_key: process.env.STRIPE_PUBLIC_KEY
+        stripe_public_key: process.env.STRIPE_PUBLIC_KEY,
+        host:process.env.HOST
     }
 }
