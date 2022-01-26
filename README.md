@@ -1,7 +1,7 @@
 REACT-NEXTJS-AMAZON-CLONE using NEXTJS, NEXT-AUTH, REDUX, STRIPE PAYMENT GATEWAY, TAILWINDCSS, FIREBASE
 
 
-Deployed on VERCEL ~ https://react-nextjs-amazon-clone-22musrxd9-rohangore1999.vercel.app/
+Deployed on VERCEL ~ https://react-nextjs-amazon-clone-3eeyj610w-rohangore1999.vercel.app/
 
 
 Test Details (Card Information Must be same)
